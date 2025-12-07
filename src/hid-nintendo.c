@@ -25,7 +25,8 @@
 #define CONFIG_NINTENDO_FF 1
 
 #include "hid-ids.h"
-#include <asm/unaligned.h>
+//#include <asm/unaligned.h>
+#include <linux/unaligned/generic.h>
 #include <linux/delay.h>
 #include <linux/device.h>
 #include <linux/kernel.h>
